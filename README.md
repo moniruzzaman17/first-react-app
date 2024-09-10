@@ -1,8 +1,25 @@
-# React + Vite
+# Jokes Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application built with React that generates random programming jokes using the JokeAPI. The application features an animated background, a joke display area, a category dropdown, and a button to fetch new jokes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetch and display random programming jokes.
+- Select joke categories from a dropdown menu.
+- Animated background with floating circles.
+- Responsive design using Bootstrap.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```sh
+   git clone https://github.com/moniruzzaman17/jokes-generator.git
+   cd jokes-generator
